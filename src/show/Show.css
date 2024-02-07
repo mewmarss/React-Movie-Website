@@ -1,0 +1,41 @@
+/* CONTAINER */
+
+.show-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 40px;
+}
+
+/* CARD */
+.card {
+    padding: 10px 10px 0 10px;
+    max-width: 250px;
+    height: 500px;
+    margin: 10px 10px;
+    background-color: #b3c7d3;
+    color: #1e1e1e;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    background-color: #a9bfcf;
+}
+
+/* CARD IMAGE */
+
+.card .card-img {
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+/* RATING */
+
+.rating-star {
+    color: goldenrod;
+}

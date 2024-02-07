@@ -1,0 +1,71 @@
+/* NAV LOGO */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0 40px;
+}
+
+.nav-logo .binge-logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* NAV SEARCH */
+
+.nav-search {
+    background-color: #010f1d;
+    border-radius: 50px;
+}
+
+.nav-search .search {
+    border: none;
+    outline: none;
+    background-color: #010f1d;
+    border-radius: 50px;
+    padding: 13px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: gainsboro;
+    width: 300px;
+}
+
+.nav-search .search-icon {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #1b2733;
+    color: gainsboro;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* NAV BUTTONS */
+
+.nav-btn-container {
+    background-color: #010f1d;
+    padding: 5px 5px;
+    border-radius: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-btn-container .nav-btn {
+    border: none;
+    background-color: #010f1d;
+    cursor: pointer;
+    color: gainsboro;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.1s ease;
+}
+
+.nav-btn-container .nav-btn:hover {
+    background-color: #1b2733;
+}
